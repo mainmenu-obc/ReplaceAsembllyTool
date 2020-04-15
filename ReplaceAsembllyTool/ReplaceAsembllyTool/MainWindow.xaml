@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
-    </Grid>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<local:SettingAssemblyPanel Grid.Row="0"/>
+			<local:AdditionalAssemblyPanel Grid.Row="1"/>
+			<local:CommandPanel Grid.Row="2"/>
+		</Grid>
+	</Grid>
 </Window>
