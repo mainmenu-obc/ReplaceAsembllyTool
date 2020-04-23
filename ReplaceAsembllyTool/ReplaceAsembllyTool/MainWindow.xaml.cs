@@ -23,6 +23,7 @@ namespace ReplaceAsembllyTool
         public MainWindow()
         {
             InitializeComponent();
+			// ブランチ1の修正
         }
 
     }
