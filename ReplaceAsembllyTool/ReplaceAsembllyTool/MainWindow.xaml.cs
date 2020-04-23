@@ -28,7 +28,8 @@ namespace ReplaceAsembllyTool
 			// マスターブランチ（伊藤）の修正
 
 
-			// test
+			// test2
+
         }
 
     }
