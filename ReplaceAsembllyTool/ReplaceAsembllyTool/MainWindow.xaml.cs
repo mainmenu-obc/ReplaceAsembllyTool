@@ -23,6 +23,8 @@ namespace ReplaceAsembllyTool
         public MainWindow()
         {
             InitializeComponent();
+			// マスターブランチ修正
+
 			// マスターブランチ（伊藤）の修正
         }
 
